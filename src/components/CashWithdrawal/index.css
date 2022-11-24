@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.mainBgContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.BgContainer {
+  padding: 60px;
+}
+.blue-Container {
+  background-color: #150b3e;
+  border-radius: 16px;
+  padding: 50px;
+  max-width: 440px;
+}
+
+.name {
+  color: #c7d2fe;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 400;
+}
+.letter-button {
+  height: 60px;
+  width: 60px;
+  background-color: #c7d2fe;
+  border-radius: 30px;
+  margin-right: 10px;
+  padding-top: 6px;
+  border: none;
+  color: #7c3aed;
+}
+.name-container {
+  display: flex;
+  align-items: center;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.para-inRupee {
+  text-align: right;
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin: 0px;
+}
+
+.balance-text {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #7c3aed;
+}
+.cash {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #c7d2fe;
+}
+.Withdraw-Text {
+  color: #c7d2fe;
+  font-family: 'Roboto';
+  font-size: 26px;
+}
+
+.rupee-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #7c3aed;
+}
+
+.list-buttons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
